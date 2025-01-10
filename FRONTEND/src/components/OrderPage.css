@@ -1,0 +1,127 @@
+#mainPage {
+  height: 100vh;
+  margin: 0 auto;
+  width: auto;
+  background-color: #0F1A2B;
+}
+
+h2 {
+  color: white;
+}
+
+.table {
+  max-height: 400px;
+  border-collapse:collapse;
+}
+
+.warehouseArea {
+  display: flex;
+  flex-direction: column;
+  margin-left: 210px;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.ordertablesContainer {
+  gap: 20px;
+  display: flex;
+  align-content: center;
+}
+
+.orderleftPanel {
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 65vh;
+  overflow-y: scroll;
+  width: 60vh;
+}
+
+.orderleftPanel input[type="checkbox"] {
+  align-content: center;
+  width: 20px; 
+  height: 20px;
+  margin: auto; 
+  display: flex;
+}
+
+.orderrightPanel {
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 65vh;
+  overflow-y: scroll;
+  width: 30vw;
+  max-width: 30vw;
+}
+
+.orderTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.itemQuantity {
+  justify-content: center;
+  width: 100px;
+  max-width: 100px;
+}
+
+.productName{
+  width: 100px;
+  max-width: 100px;
+}
+
+.tableLOT{
+  width: 100px;
+  max-width: 100px;
+}
+.finalOrder {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orderTable th,
+.orderTable td,
+.finalOrder th,
+.finalOrder td {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: black;
+  height: 30px;
+}
+
+.orderTable th,
+.finalOrder th {
+  background-color: #f2f2f2;
+}
+
+.buttonContainer {
+  display: inline-flex;
+  gap: 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  align-items: first baseline;
+  max-width: 50%;
+}
+
+.buttonContainer select {
+  width: 200px;
+  height: 55px;
+  font-size: 14px;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.buttonContainer button {
+  font-size: 14px;
+}
+
+#orderList:hover {
+  background-color: #c87cfc;
+  cursor: pointer;
+}

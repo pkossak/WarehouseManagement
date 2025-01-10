@@ -1,0 +1,45 @@
+.addProductPage{
+    height: 100vh;
+    margin: 0 auto;
+    width: auto;
+    background-color: #0F1A2B;
+}
+
+.leftSideForm{
+    overflow: hidden;
+    width: 50%;
+    border-right: 4px solid #c87cfc;
+    border-radius: 10px 0 0 0;
+}
+.addProductArea{
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.addProductForm
+{
+    width: 90%;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+select{
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 25px;
+    padding-left: 10%;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}

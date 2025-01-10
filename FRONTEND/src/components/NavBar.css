@@ -1,0 +1,133 @@
+nav
+{
+    background-color: #252424;
+    min-width: 200px;
+    max-width: 11vw;
+    height: 92vh;
+    position:fixed;
+    bottom: 0;
+    left: 2px;
+    padding-top: 1vh;
+    border-right: 3px solid #c87cfc;
+}
+.normalText
+{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.icon
+{
+    margin: 5px;
+}
+p
+{
+    color:white;
+    margin: 0;
+}
+#barTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 1%;
+    margin-top: 15%;
+    padding: 1%;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+
+#userDetail
+{
+    margin-top: 10%;
+    padding: 5px;
+    width: 80%;
+}
+#userName
+{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#userCode
+{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#appMenu
+{
+    margin-top: 20%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+#appMenu::before
+{
+    content: " ";
+    border: 1px solid white;
+    margin-left: 50%;
+}
+#listMenu
+{
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    overflow-x: hidden;
+    
+    
+}
+.listItem
+{
+    margin: 20px;
+    font-weight: 500;
+    transition: 0.1s ease-in;
+    margin: 1px;
+    padding: 5px;
+}
+
+.listItem > div {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid white;
+    
+}
+.listItem:hover{
+    background-color: #c97cfc5c;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.signOut
+{
+    position: absolute;
+    bottom: 1vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(212, 87, 65);
+    width: 99%;
+} 
+
+
+.signOut:hover
+{
+    cursor: pointer;
+    background-color: tomato;
+}
+.noteBell{
+    transition: 0.2s;
+}
+
+.noteBell:hover
+{
+    background-color: #c97cfc5c;
+    box-shadow: 0 0 10px #c87cfc;
+    border-radius: 50%;
+    padding-left: 2px;
+    color: red;
+    cursor: pointer;
+}
